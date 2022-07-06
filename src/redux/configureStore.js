@@ -3,7 +3,7 @@ import thunk from 'redux-thunk';
 import greeting from './greeting';
 
 const reducer = combineReducers({
-  greeting
+  greeting,
 });
 
 const store = createStore(reducer, applyMiddleware(thunk));

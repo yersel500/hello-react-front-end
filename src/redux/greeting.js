@@ -21,6 +21,6 @@ export const getRandomMessage = () => async (dispatch) => {
 
   dispatch({
     type: RANDOM_MESSAGE,
-    payload
+    payload,
   });
-}
+};
